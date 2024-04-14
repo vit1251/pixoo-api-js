@@ -1,11 +1,11 @@
 {
-  "name": "pixoo-api",
-  "version": "0.2.3",
-  "description": "Pixoo API that doesn't suck",
-  "author": "Adam K Dean <adamkdean@googlemail.com>",
+  "name": "pixoo-api-js",
+  "version": "0.0.1",
+  "description": "Lightweight JS Pixoo REST API",
+  "author": "Alain Chautard",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamkdean/pixoo-api"
+    "url": "https://github.com/alcfeoh/pixoo-api-js"
   },
   "keywords": [
     "divoom",
@@ -20,13 +20,5 @@
   ],
   "license": "GPL-3.0",
   "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "node test.js",
-    "test:dev": "nodemon test.js"
-  },
-  "dependencies": {
-    "sharp": "^0.31.3",
-    "superagent": "^8.0.6"
-  }
+  "type": "module"
 }

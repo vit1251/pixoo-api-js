@@ -1,13 +1,11 @@
-# Pixoo API
+# Pixoo API JS
 
-Pixoo API that doesn't suck.
-
-I've based this API on a number of sources, including the [Official Pixoo API](http://doc.divoom-gz.com/web/#/12?page_id=243) (which isn't great), a bunch of open source projects, and a lot of trial and error. Please open an issue if you find any bugs.
+A lightweight fork of [pixoo-api](https://github.com/adamkdean/pixoo-api) that works on Linux devices such as Raspberry Pi Zero thanks to the removal of all dependencies.
 
 ## Install
 
 ```
-npm i pixoo-api
+npm i pixoo-api-js
 ```
 
 ## Usage
@@ -46,7 +44,6 @@ The PixooAPI class has several methods that you can use to manipulate the canvas
 - `drawTextRight(text, y, color, padding, font?)`: draw a text on the right side of the canvas on the given horizontal line (y) with the given color and padding.
 - `drawRect(start, end, color, fill = false)`: draw a rectangle on the canvas between the given coordinates with the given color. If `fill` is true, the rectangle will be filled with the given color.
 - `drawLine(start, end, color)`: draw a line on the canvas between the given coordinates with the given color.
-- `drawImage(path, pos, size)`: draw an image on the canvas at the given position with the given size.
 - `push()`: send the current buffer to the server.
 
 You can also use the following getters to retrieve information about the canvas and the server connection:
