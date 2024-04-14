@@ -13,7 +13,7 @@ npm i pixoo-api-js
 To use the PixooAPI class, you need to import it in your JavaScript file:
 
 ```js
-import { PixooAPI } from 'pixoo-api'
+import { PixooAPI } from 'pixoo-api-js'
 ```
 
 Then you can create an instance of the PixooAPI class by calling the constructor with the address of the server to connect to and the size of the canvas in pixels (optional, default value is 64):

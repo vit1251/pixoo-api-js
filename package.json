@@ -1,6 +1,6 @@
 {
   "name": "pixoo-api-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight JS Pixoo REST API",
   "author": "Alain Chautard",
   "repository": {
