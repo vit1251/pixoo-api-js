@@ -1,11 +1,11 @@
 {
   "name": "pixoo-api-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lightweight JS Pixoo REST API",
-  "author": "Alain Chautard",
+  "author": "Vitold S <vit1251@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alcfeoh/pixoo-api-js"
+    "url": "https://github.com/vit1251/pixoo-api-js"
   },
   "keywords": [
     "divoom",
